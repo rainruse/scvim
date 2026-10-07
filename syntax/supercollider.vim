@@ -20,7 +20,9 @@
 " Version:	0.2
 " Last change:	2012-03-31
 
-syn clear
+if exists("b:current_syntax")
+    finish
+endif
 
 syn match	scAoperator	"{"
 syn match	scAoperator	"}"
