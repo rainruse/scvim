@@ -103,7 +103,6 @@ syn region  scComment	      start="/\*"  end="\*/" contains=@Spell,scCommentTodo
 """""""""""""""""""""""""""""""""""""""""
 " linkage
 
-hi def link scObject Identifier
 hi def link scBinaryoperator Special
 hi def link scUnaryoperator Special
 hi def link scAoperator Statement
